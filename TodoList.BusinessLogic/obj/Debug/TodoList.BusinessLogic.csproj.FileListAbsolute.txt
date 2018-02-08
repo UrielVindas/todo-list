@@ -1,0 +1,8 @@
+C:\Users\uriel\source\repos\TodoList\TodoList.BusinessLogic\bin\Debug\TodoList.BusinessLogic.dll
+C:\Users\uriel\source\repos\TodoList\TodoList.BusinessLogic\bin\Debug\TodoList.BusinessLogic.pdb
+C:\Users\uriel\source\repos\TodoList\TodoList.BusinessLogic\obj\Debug\TodoList.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\uriel\source\repos\TodoList\TodoList.BusinessLogic\obj\Debug\TodoList.BusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\uriel\source\repos\TodoList\TodoList.BusinessLogic\obj\Debug\TodoList.BusinessLogic.dll
+C:\Users\uriel\source\repos\TodoList\TodoList.BusinessLogic\obj\Debug\TodoList.BusinessLogic.pdb
+C:\Users\uriel\source\repos\TodoList\TodoList.BusinessLogic\bin\Debug\TodoList.DataAccessLayer.dll
+C:\Users\uriel\source\repos\TodoList\TodoList.BusinessLogic\bin\Debug\TodoList.DataAccessLayer.pdb

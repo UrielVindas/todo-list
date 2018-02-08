@@ -1,0 +1,50 @@
+﻿@model IEnumerable<TodoList.Models.ToDo>
+
+@{
+    ViewBag.Title = "TodoList";
+}
+
+<h2>List of task</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateTask")
+</p>
+
+@if (Model != null && Model.Count() > 0)
+{
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.IsDone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.description)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            string taskClass = item.IsDone ? "task-done" : "pending-task";
+            string idTask = "task" + item.Id.ToString();
+
+            <tr>
+                <td>
+                    @Html.CheckBoxFor(modelItem => item.IsDone, new { id = "cboxDone", onchange = "isDone(" + item.Id + ",this)" })
+                </td>
+                <td class=@taskClass id=@idTask>
+                    @Html.DisplayFor(modelItem => item.description)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "EditTask", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "DeleteTask", new { id = item.Id }, new { onclick = "return confirm('Are you sure you wish to delete this task?');" })
+                </td>
+            </tr>
+        }
+
+    </table>
+
+}
+
+else
+{<p>No tasks have been added yet</p>}

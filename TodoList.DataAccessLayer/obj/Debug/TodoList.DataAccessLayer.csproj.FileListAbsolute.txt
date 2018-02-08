@@ -1,0 +1,8 @@
+C:\Users\uriel\source\repos\TodoList\TodoList.DataAccessLayer\bin\Debug\TodoList.DataAccessLayer.dll
+C:\Users\uriel\source\repos\TodoList\TodoList.DataAccessLayer\bin\Debug\TodoList.DataAccessLayer.pdb
+C:\Users\uriel\source\repos\TodoList\TodoList.DataAccessLayer\obj\Debug\TodoList.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\uriel\source\repos\TodoList\TodoList.DataAccessLayer\obj\Debug\TodoList.DataAccessLayer.dll
+C:\Users\uriel\source\repos\TodoList\TodoList.DataAccessLayer\obj\Debug\TodoList.DataAccessLayer.pdb
+C:\Users\uriel\source\repos\TodoList\TodoList.DataAccessLayer\obj\Debug\TodoList.DataAccessLayer.csprojResolveAssemblyReference.cache
+C:\Users\uriel\source\repos\TodoList\TodoList.DataAccessLayer\obj\Debug\TodoList.DataAccessLayer.Resources.Data.resources
+C:\Users\uriel\source\repos\TodoList\TodoList.DataAccessLayer\obj\Debug\TodoList.DataAccessLayer.csproj.GenerateResource.Cache
